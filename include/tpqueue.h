@@ -22,7 +22,7 @@ class TPQueue {
     void push(const T&);
     T pop();
 };
-  
+
 template<typename T>
 typename TPQueue<T>::Item* TPQueue<T>::create(const T& value) {
     Item* item = new Item;
